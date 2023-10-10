@@ -30,4 +30,34 @@ function loginUser(username = "ram") {
 }
 
 // console.log(loginUser("yash"));
-console.log(loginUser());
+// console.log(loginUser());
+
+// rest operator (...)
+function calculatePrice(...num1) {
+    return num1;
+}
+
+// console.log(calculatePrice(100,200,30)); 
+
+const user = {
+    username : "yash",
+    age :20
+}
+
+function handleObj(user) {
+    console.log(`Username is ${user.username} and age is ${user.age}`);
+}
+
+// handleObj(user);
+
+// handleObj({
+//     username : "john",
+//     age :10
+// });
+
+const arr = [10,20,30,40];
+function returnValue(arr) {
+    return arr[1];
+}
+
+console.log(returnValue(arr));
