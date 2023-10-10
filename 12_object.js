@@ -43,3 +43,12 @@ const users = [
 // console.log(Object.values(users));
 
 console.log(user.hasOwnProperty('isLoggedIn')); //to check property is there or not
+
+const course = {
+    courseName : "javascript",
+    price : 120,
+    courseInstructor : "yash pal"
+}
+
+const {courseInstructor : instructor} = course; // obj destructure
+console.log(instructor);
