@@ -11,6 +11,8 @@
 // }
 
 /*********** Map *********/
+// The Map object holds key-value pairs and 
+// remembers the original insertion order of the keys
 
 const map = new Map();
 map.set('IN',"India");
@@ -83,3 +85,4 @@ const coding = [
 coding.forEach((items)=>{
     console.log(items.fileName);
 })
+
