@@ -1,4 +1,4 @@
-// for of loop
+/******* for of loop ********/
 
 // const arr = [1,2,3,4,5,6,7];
 // for (const val of arr) {
@@ -84,5 +84,5 @@ const coding = [
 
 coding.forEach((items)=>{
     console.log(items.fileName);
-})
+});
 
