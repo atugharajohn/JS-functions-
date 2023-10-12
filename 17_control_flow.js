@@ -33,20 +33,42 @@ const loggedInFromEmail = true;
 
 const month = 3;
 
-switch(month){
-    case 1:
-        console.log("january");
-        break;
-    case 2:
-        console.log("february");
-        break;
-    case 3:
-        console.log("march");
-        break;
-    case 4:
-        console.log("april");
-        break;
-    default:
-        console.log("not matching");
-        break;
-}
+// switch(month){
+//     case 1:
+//         console.log("january");
+//         break;
+//     case 2:
+//         console.log("february");
+//         break;
+//     case 3:
+//         console.log("march");
+//         break;
+//     case 4:
+//         console.log("april");
+//         break;
+//     default:
+//         console.log("not matching");
+//         break;
+// }
+
+// falsy values => false,0,-0,BigInt 0n, "",null,undefined,NaN
+
+// Truthy values => "0",'false'," ",[],{},function(){}
+
+const userEmail = "user@example.com";
+
+// if(userEmail.length === 0){
+//     console.log("Array is empty");
+// }
+
+// Nullish coalescing operator (??) : null undefined
+let val;
+// val = 5 ?? 10; // set first value 5
+// val = null ?? 10; 
+// val = undefined ?? 15;
+val = null ?? 10 ?? 15;
+console.log(val);
+
+// Ternary Operator
+const price = 100;
+(price > 140) ? console.log("price is greater") : console.log("price is less");
