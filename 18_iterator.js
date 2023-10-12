@@ -36,10 +36,36 @@ const arr = ["yash", "vinu", "tanu"];
 //   console.log(`value = ${i}`);
 // }
 
-for (let i = 0; i < 10; i++) {
-  if (i == 5) {
-    console.log("5 is detected");
-    continue;
-  }
-  console.log(`value = ${i}`);
-}
+// for (let i = 0; i < 10; i++) {
+//   if (i == 5) {
+//     console.log("5 is detected");
+//     continue;
+//   }
+//   console.log(`value = ${i}`);
+// }
+
+/************ while loop ***********/
+
+// let i = 0;
+// while (i < 10) {
+//   console.log(`value = ${i}`);
+//   i++;
+// }
+
+const array = ["ironman", "batman", "spiderman"];
+
+// let i = 0; 
+// while (i < array.length) {
+//     console.log(`value = ${array[i]}`);
+//     i++;
+
+// }
+
+/******** do while loop ********/
+
+let score = 10;
+
+do{
+    console.log(score);
+    score++;
+}while(score <= 20);
