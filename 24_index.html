@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="color: #fff; background-color: #271e1e">
+    <script>
+      const div = document.createElement("div");
+      console.log(div);
+      div.className = "container";
+      div.id = Math.round(Math.random() * 10 + 1);
+      div.setAttribute("title", "generate title");
+      div.style.color = "red";
+      div.style.padding = "10px";
+
+      // div.innerHTML = "CodeWithYash";
+      const addtext = document.createTextNode("code with yash");
+      div.appendChild(addtext);
+
+      document.body.appendChild(div);
+    </script>
+  </body>
+</html>
