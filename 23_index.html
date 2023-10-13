@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Object Model</title>
+    <!-- <script src="./23_DOM.js"></script> -->
+    <style>
+      .bg-black{
+        background-color: #473838;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <div class="parent">
+      <div class="day">monday</div>
+      <div class="day">tuesday</div>
+      <div class="day">wednesday</div>
+      <div class="day">thursday</div>
+
+      <!-- <h1 class="h1" id="heading">DOM - Document Object Model</h1>
+      <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+    <ul>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul> -->
+    <script>
+      const parent = document.querySelector('.parent');
+      // console.log(parent);
+      // console.log(parent.children);
+      // console.log(parent.children[1].innerHTML);
+
+      // for(let i = 0; i < parent.children.length; i++) {
+      //   console.log(parent.children[i].innerHTML);
+      // }
+
+      parent.children[1].style.color = "red";
+
+      // console.log(parent.firstElementChild)
+
+      // node to parent
+      const day = document.querySelector('.day');
+      // console.log(day.parentElement)
+      // console.log(day.nextElementSibling)
+    </script>
+  </body>
+</html>
